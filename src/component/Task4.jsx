@@ -37,8 +37,8 @@ const Task4 = () => {
             <>
             <div key={item.id} className="bg-color3 md:mx-3  md:w-1/2 w-3/4 my-3 m-auto pr-10 border-2 border-color1 rounded-md text-color1 hover:bg-color4">
                 <p className="flex p-2 font-serif text-lg"><FaRegUser className="pr-3 size-8"/>{item.username}</p>
-                <p className="flex p-2 font-mono text-md font-bold"><MdOutlineMail className="pr-3 pb-2 size-9" />{item.email}</p>
-                <p className="flex p-2 font-mono text-md font-bold"><CgWebsite className="pr-3 pb-2 size-9" />{item.website}</p>
+                <p className="flex p-2 font-mono text-md font-bold"><MdOutlineMail className="pr-3 pb-2 size-8" />{item.email}</p>
+                <p className="flex p-2 font-mono text-md font-bold"><CgWebsite className="pr-3 pb-2 size-8" />{item.website}</p>
             </div>
             </>
          );
